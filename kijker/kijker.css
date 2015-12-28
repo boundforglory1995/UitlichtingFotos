@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script);
+
+
+html,body{
+    margin: 0;
+    padding:0;
+    
+    
+    
+}
+
+
+
+
+body{
+   color:rgb(255,255,255);
+   background-color: rgb(160,30,0);
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   font-family: Verdana;
+    
+    
+}
+
+#bak{
+    
+    width: 841px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+h1{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 36px;
+    
+    
+}
+
+#holder{
+    width: 841px;
+    height:700px;
+    background-image: url(imgs/foto-zwartwit.jpg);
+    background-repeat: no-repeat;
+    position:relative;
+    
+    
+}
+
+
+#window{
+    
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left:250px;
+    top:250px;
+    background-image: url(imgs/foto.jpg);
+    background-position:  -250px -250px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+   -webkit-transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+   -moz-transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+   -o-transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+   transition: left 2s, top 2s, background-position 2s, width 2s, height 2s, border-radius 2s;
+  
+    
+    
+   
+    
+    
+    
+}
+
+ article div {
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px 40px;
+    position: absolute;
+    top:720px;
+     -webkit-column-count:2;
+    -webkit-column-gap: 40px;
+    -moz-column-count:2;
+    -moz-column-gap: 40px;
+     column-count:2;
+     column-gap: 40px;
+    }
+    
+.zichtbaar {
+    
+  display: block; 
+    
+    
+}
+.onzichtbaar{
+    
+  display: none;  
+    
+    
+}
+
+nav{
+    background-color: rgba(200,100,0,0.6);
+    
+    
+}
+
+nav ul{
+   list-style-type: none;
+   padding: 0;
+   margin:10px auto;
+   height: 20px;
+
+}
+
+nav li {
+   float: left;
+   border-right: 1px rgb(250,250,250) solid;
+
+
+
+}
+
+
+nav li:first-child {
+  border-left: 1px rgb(250,250,250) solid;
+
+
+}
+
+
+
+nav a {
+ color: rgb(250,250,250);
+ text-decoration: none;
+ height: 20px;
+ line-height: 20px;
+ padding: 0 12px;
+ font-size: 12px;
+ display:block;
+
+}
+
+
+
+nav a:hover, nav a.actief {
+background-color:rgb(10,10,10);
+
+
+}
+/*---------------- de info knop ---------*/
+
+
+a#informationButton {
+color: rgb( 255,255,255);
+font-size: 14px;
+text-decoration: none;
+position: absolute;
+left: 841px;
+top:770px;
+padding: 6px 12px;
+background-color: rgba(200,100,0,0.6);
+border: 2px solid rgb(0,0,0);
+border-radius: 24px 12px;
+
+
+}
+a#informationButton:hover{
+
+background-color: rgb(0,0,0);
+
+
+}
+
+#informationButton.geklikt{
+background-color: rgb(0,0,0);
+border: 2px solid rgb(255,255,255);
+
+
+}
+
+
+a#informationButton.geklikt:hover{
+  background-color: rgba(200,100,0,0.6);  
+    
+    
+    
+}   
+_____
